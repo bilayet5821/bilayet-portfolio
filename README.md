@@ -39,10 +39,13 @@ My ongoing undergraduate thesis, **Uncertainty-Guided Diffusion Network for Mult
 
 ## Featured Projects
 
-- **[ModalX-AI](https://github.com/bilayet5821/modalx-ai):** Offline video-based sentiment and presentation analysis; 1st Runner-up in the ModalX-AI Challenge.
-- **[LogicScript Compiler](https://github.com/bilayet5821/LogicScript-Compiler_Design_project):** A mini programming-language interpreter built with Flex, Bison, and C.
-- **[Task Manager](https://github.com/bilayet5821/task_manager_app):** A Flutter application with Firebase Authentication and Hive-based task storage.
-- **[University Management System](https://github.com/bilayet5821/University-Management-System):** A Bash-based command-line administration system.
+- **[XAI-Driven Clinical Decision Support System](https://github.com/bilayet5821/XAI-Driven-Anemia-Detection-Clinical-Decision-Support-System):** Explainable AI-based clinical decision support system for anemia classification using hematological parameters, achieving **98.98% accuracy** with Random Forest and SHAP-based interpretation. **1st Runner-up** at the Research Poster Presentation, 5th National Data Science Summit, DIU 2026. [Live Demo](https://bilayet5821.github.io/XAI-Driven-Anemia-Detection-Clinical-Decision-Support-System/)
+
+- **[BengaliDiff: Diffusion Model for Few-Shot Bengali Font Generation](https://github.com/bilayet5821/BengaliDiff-Diffusion-Model-Few-Shot-Bengali-Font-Generation):** Diffusion-based few-shot Bengali font generation framework with content–style representation learning and adversarial supervision. Published in **ICDAR 2025 Workshops (Springer LNCS)**. [Paper](https://link.springer.com/chapter/10.1007/978-3-032-09371-4_7)
+
+- **[Dhaka Tesla Pool – Ride-Sharing System](https://github.com/bilayet5821/dhaka-tesla-pool):** Full-stack ride-sharing platform featuring secure session-based authentication, role-based access control, passenger ride requests, fare estimation, PostgreSQL persistence, and Dockerized deployment. Built with **React, TypeScript, Node.js, Express.js, PostgreSQL, and Docker**.
+
+- **[ModalX-AI](https://github.com/bilayet5821/modalx-ai):** Offline AI system for video-based sentiment and presentation-performance analysis with privacy-preserving local processing. **1st Runner-up** in the ModalX-AI Challenge – AI-Powered Multi-Modal Presentation Assessment System, DIU 2026.
 
 ## Contact
 
