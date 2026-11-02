@@ -1,8 +1,9 @@
 const toggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('#navigation');
+const header = document.querySelector('.site-header');
 const links = [...nav.querySelectorAll('a')];
 const sections = links.map(link => document.querySelector(link.hash));
-const mobile = window.matchMedia('(max-width: 720px)');
+const mobile = window.matchMedia('(max-width: 860px)');
 
 function closeMenu(returnFocus = false) {
   nav.classList.remove('open');
@@ -36,7 +37,8 @@ document.documentElement.classList.add('nav-ready');
 // Maintain the current section even in the whitespace between entries.
 let scheduled = false;
 function updateActiveLink() {
-  const threshold = document.querySelector('.site-header').getBoundingClientRect().height + 28;
+  header.classList.toggle('is-compact', window.scrollY > 24);
+  const threshold = header.getBoundingClientRect().height + 28;
   let current = sections[0];
   for (const section of sections) {
     if (section.getBoundingClientRect().top <= threshold) current = section;
